@@ -1,22 +1,25 @@
 package com.ing.zoo;
 
-public class Hippo {
+import java.util.Random;
+
+public class Cat {
     public String name;
     public String helloText;
     public String eatText;
 
-    public Hippo() {
+    public Cat()
+    {
     }
 
     public void sayHello()
     {
-        helloText = "splash";
+        helloText = "Miauuwww";
         System.out.println(helloText);
     }
 
     public void eatLeaves()
     {
-        eatText = "munch munch lovely";
+        eatText = "yumm";
         System.out.println(eatText);
     }
 }

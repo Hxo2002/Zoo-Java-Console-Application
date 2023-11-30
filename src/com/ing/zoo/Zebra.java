@@ -6,8 +6,6 @@ public class Zebra {
     public String name;
     public String helloText;
     public String eatText;
-    public String trick;
-
     public Zebra()
     {
     }
